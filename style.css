@@ -1,0 +1,28 @@
+/*@media (min-width: 900px) {
+    .container {
+        padding: 0;
+    }
+
+
+    .section-title {
+        font-size: 1.75rem;
+    }
+
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .feature-box {
+        padding: calc(var(--spacing-unit) * 3);
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        padding: 0;
+    }
+
+    .header {
+        padding: calc(var(--spacing-unit) * 3) 0;
+    }
+}*/

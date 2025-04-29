@@ -1,0 +1,36 @@
+body{
+    background-image: url("https://s.tmimgcdn.com/scr/1200x627/296200/premium-vector-background-images--high-quality-background--modern-hd-background-images_296286-original.jpg");
+    background-size: cover;              
+    background-repeat: no-repeat;        
+    background-position: center center; 
+    background-attachment: fixed; 
+}
+.container {
+    width: 70%;
+    
+    margin: 0 auto;
+    padding: 0 ;
+}
+
+.header h1{
+    font-size: 40px;
+    color:brown;
+    text-align: center;
+}
+
+
+.one {
+    display: flex;
+    justify-content: center;  
+    gap: 30px;                
+    flex-wrap: wrap;         
+    padding: 20px;
+}
+
+.two, .three {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}

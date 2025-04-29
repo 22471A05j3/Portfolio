@@ -1,0 +1,39 @@
+:root {
+    --primary-color: pink;
+    --secondary-color: blue;
+    --text-color: green;
+    --light-gray: purple;
+    --spacing-unit: 1rem;
+    --border-radius: 8px;
+    --box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.container {
+    width: 50%;
+    
+    margin: 0 auto;
+    padding: 0 var(--spacing-unit);
+}
+
+.header h1{
+    font-size: 40px;
+    color:brown;
+    text-align: center;
+}
+
+
+.one {
+    display: block;
+    justify-content: center;  
+    gap: 30px;                
+    flex-wrap: wrap;        
+    padding: 20px;
+    
+}
+
+.two, .three,.four {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.1); 
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
