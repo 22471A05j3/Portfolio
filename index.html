@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
@@ -15,7 +16,18 @@
     background-position: center center; 
     background-attachment: fixed;  
 
+
     }
+    nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+  z-index: 1000;
+}
+
+   
      ul{
         text-align: right;
     
@@ -28,7 +40,8 @@
         
     
     }
-    i{
+     nav i{
+       
       float: left;
       padding: 10px;
       font-size: 25px;
@@ -36,15 +49,15 @@
     
     
     
-    h1{
+   .one  h1{
     color:green;
     font-size: 30px;
     }
-    h2{
+    .one h2{
     color: green;
     font-size: 25px;
     }
-    p{
+    .one p{
     color: crimson;
     font-size: 20px;
     }
@@ -59,7 +72,7 @@
     
 
     }
-    .container {
+    .section .container {
     width: 70%;
 
     margin: 0 auto;
@@ -79,20 +92,20 @@
 
 </style>
 
-<body>
+<body id="home">
     <nav>
         <i class="fa-solid fa-user-tie"></i><i>portfolio</i>
         <ul>
             
-            <li><a href="index.html">Home</a></li>
-            <li><a href="About.html">About</a></li>
-            <li><a href="Skill.html">Skills</a></li>
-            <li><a href="Project.html">Projects</a></li>
-            <li><a href="Contact.html">Contacts</a></li> 
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li> 
         </ul>
          
     </nav>
-    <section class="section">
+    <section class="section1">
         <div class="container">
             <div class="one">
                 <img src="/Images/profile.jpg" alt=""  class="img">
@@ -104,9 +117,205 @@
                    
             </div>
         </div>
-    </section>
+    </section><br><br><br><br>
     
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        <div id="about" class="container1">
+            <header class="header1">
+                <h1>About Me</h1>
+            </header>
+            </div>
+            <main>
+                <section class="section2">
+                    <h1>I am passionate in learning  Full Stack Web Development Courses and using them to apply in Real time Projects. </h1>
+        
+                    <div class="one1">
+                        <h1>Educational Details:</h1>
+                      
+                        <div class="two1">
+                           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Narasarao-peta-engineering-college-mainbuilding.jpg/250px-Narasarao-peta-engineering-college-mainbuilding.jpg" alt="" >
+                           <h2>Narasaraopeta Engineering College</h2>
+                           <h3>B.Tech</h3>
+                           <p>Since oct 2022 - Present</p> 
+                        </div><br><br>
+                         <div class="three1">
+                            <img src="https://srichaitanyaeducationalincident.wordpress.com/wp-content/uploads/2023/09/sri-chaitanya-cover.png?w=1024"  width="250px" alt="">
+                            <h2>Sri Chaitanya Junior College</h2>
+                            <h3>Intermediate</h3>
+                            <p>From Dec 2020 - May2022</p>
+                            
+                        </div><br><br>
+                      
+                        
+                        <div class="four1">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb1SAWTircxwfu090Fp9ku4fE9J7150U4p7A&s"  height="150px" alt="">
+                            <h2>CBIT School,Narasaraopeta</h2>
+                            <h3>SSC</h3>
+                            <p>From June 2019 - March 2020</p>
+                            
+                              
+                          
+                          </div>
+                    </div>
+                </section>
+            </main><br><br><br>
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+
+            
+                
+                <div id="skills"class="container2">
+                    <header class="header2">
+                        <h1>My Skills</h1>
+                    </header>
+                </div>
+                <main>
+                    <section>
+            
+                        <div class="grid">
+                          
+                            <div class="card">
+                               <h2>Web Development:</h2>
+                                 <p>HTML</p>
+                                 <p>CSS</p>
+                                 <p>JavaScript</p>
+                             </div>
+                             <div class="card">
+                                <h2>Programming Languages:</h2>
+                                  <p>Python</p>
+                                  <p>Java</p>
+                                  <p>c</p>
+                            </div>
+                          
+                            
+                            <div class="card">
+                                <h2>Database Management:</h2>
+                                  <p>SQL</p>
+                                  <p>MongoDB</p>
+                                  
+                              
+                              </div>
+                        </div>
+                    </section>
+                </main><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                
+                    
+                    <div id="project" class="container3">
+                        <header class="header3">
+                            <h1>My Projects</h1>
+                        </header>
+                    </div>
+                    <main>
+                        <section>
+                
+                            <div class="one2">
+                              
+                                <div class="two2">
+                                   <img src="https://easyshiksha.com/online_courses/assets/images/kids-learning/Math-Quiz.png"  width="355px" height="322px" alt="">
+                                   <h1>Math Quiz Game</h1>
+                                   <p>Android Project</p>
+                                </div>
+                                 <div class="three2">
+                                    <img src="https://leapmax.ai/wp-content/uploads/2024/10/employee-management-system.webp"    width="355px" height="322px"      alt="">
+                                 <h1> EMS</h1>
+                                 <p>React Project</p>
+                                </div>
+                            </div><br><br><br><br><br>
+
    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            
+                                
+                                <div class="one4">
+                                <h1 id="contact">Contact Me</h1>
+                                <main>
+                                    <section>
+                                        <div class ="one3">
+                                            <form>
+                                                <label>Name:</label>
+                                                <input type="text" name="name" placeholder="Enter your name"><br><br>
+                                                <label>Email:</label>
+                                                <input type="Email" name="Email" placeholder="Enter your Name"><br><br>
+                                                <label>Message:</label>
+                                                <textarea rows="5" cols="10" placeholder="Why do you want to contact me?"></textarea>
+                                                <br><br><br><br>
+                                                <button> Submit</button>
+                                            </form>
+                                        </div>
+                                    </section>
+                                </main><br><br>
+                                <footer class="two3"  style="background-color: gray; ">
+                                    <div>
+                                        <p>You can also contact me via </p>
+                                        <a href="https://www.linkedin.com/in/shaik-rasheed-222274276"><i class="fa-brands fa-linkedin"></i></a>
+                                        <i class="fa-brands fa-whatsapp"></i> 
+                                        <i class="fa-brands fa-instagram"></i>
+                                        <i class="fa-brands fa-x-twitter"></i>
+                            
+                                    </div>
+                                </footer>
+                                </div>
+
+
+
 </body>
 </html>  
